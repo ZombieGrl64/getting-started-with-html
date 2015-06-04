@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+
+
+    <title>A Pen by  Amanda Hicks</title>
+    
+    
+    
+    
+    
+    
+    
+    
+  </head>
+
+  <body>
+
+    <head>
+	<title>Notes on the web & basic HTML</title>
+
+</head>
+
+<body>
+
+	<h1>The basics of the web and HTML - Important stuff to remember</h1>
+	<h2>A brief introduction to the web</h2>
+	<p>The web is mostly made up of HTML (HyperText Markup Language) documents with Hyperlinks (links to other webpages makes the web web like). It was invented in the 1990's, and there are over 30 million pages on the web (though which indexing system this figure is using I don't know!). Files on the web include:</p>
+	<li> Plain Text</li>
+	<li>HTML (the main language of the web)</li>
+	<li>Images</li>
+	<li>Videos</li>
+	<li>Music</li><br>
+	<b>So what is the web?</b><br>
+	<img src="TheInternet2.PNG" alt="The Internet">
+	<p>When you visit a webpage such as udacity.com, your computer sends a request to a server using HTTP (the main protocol of the web), the server finds the HTML document you are requesting and sends it back to you, where your browser displays the content of the file(s).</p>
+	<h2>HTML - HyperText Markup Language</h2>
+	<p>HTML is made up of:</p>
+	<li>Text content - which is what you see</li>
+	<li>Markup - which is what the content looks like</li>
+	<li>References to other documents - such as images and videos</li>
+	<li><a href="http://www.udacity.com">Links to other pages</a>- also known as Hyperlinks</li>
+	<p><b>HTML Markup</b> is made up of tags, these are used to define the structure of the content displayed on an HTML page, such as text, images, and videos. Most (but not all) tags have an opening tag and a closing tag, and in between them is your content. This structure is referred to as an Element.
+	Two such elements that define the structure of text displayed on a HTML page are:</p>
+	<li><b>Bold</b> - &lt;b&gt;Text goes here&lt;/b&gt;</li>
+	<li><em>Emphasis</em> - &lt;em&gt;Text goes here&lt;/em&gt;</li><br>
+	<hr>
+	<p><b>TIP!</b> It's often a good idea to make your closing tags as soon as you make your opening tag so that you don't cause unexpected problems. Computers are stupid and they will only do what you tell them to do. They can not intuit what you mean. If you forget a closing tag then the opening tag will be attributed to everything after it. The computer does not know where you meant to put the closing tag, computers are not psychic!</p>
+	<hr>
+	<b>HTML Attributes:</b>
+	<p>&lt;TAG ATTR="value"&gt;Contents&lt;/TAG&gt;</p>
+	<p>A couple of tags that have attributes:</p> 
+	<li><a href="http://www.w3schools.com">Anchor</a> - &lt;a&gt;</li><br>
+	<li><img src="MrMan.png" alt="Mr Man"> - &lt;img&gt;</li><br>
+	<b>Whitespace:</b>
+	<p>Text on multiple lines within the HTML appear as one line in the browser, the excess whitespace is stripped. If you want text to appear on multiple lines then you can use the following elements:</p>
+	<li><b>Break (void)</b> - &lt;br&gt;</li>
+	Breaks are used inline to break<br>
+	a sentence up onto mulitple lines!
+	<li><b>Paragraph</b> - &lt;p&gt;</li>
+	<p>Paragraphs</p>
+	<p>are used when text is really</p>
+	<p>too long for one line</p>
+	<b>So if &lt;br&gt; and &lt;p&gt; do the same thing, why do we have both?</b><br>
+	<li><b>&lt;br&gt;</b> is an inline element which is good for ending a line.</li>
+	<li><b>&lt;p&gt;</b> is a block element, it makes an invisible box around text, which can have height and width. This is good when you want the block of text to have a bit of padding around it.</li>
+	<p><b>Container Elements:</b></p> Are elements that do nothing but contain stuff inside themselves, these are used to control how text is laid out. The following are examples of container elements:<br>
+	<br>
+	<li><b>&lt;span&gt;</b> is an inline element, it is used to group inline elements together, it also allows styling to be applied to text contained in the span.</li><br>
+	<span style="color:blue"> This is text in a span</span>, it allows inline styling to be applied to a portion of text.
+	<br><br>
+
+	<li><b>&lt;div&gt;</b> is a block element, it is used for layout, styling and positioning of text on a page (most often using CSS).</li><br>
+	<div style="color:blue" align="center">
+		<b>This is text in a div, it has been styled using attributes.</b>
+	</div>
+</body>
+    
+    
+    
+    
+    
+  </body>
+</html>
